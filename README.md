@@ -1,4 +1,12 @@
 # AutomatyzacjaPaszportowSubiektNexo
-Program automatyzujący wydawanie paszportów roślinom po wystawieniu faktury na nie w programie Subiekt Nexo.\n
-Plik "flaga.jpg" musi znajdować sie w tym samym folderze co program./n
-użyte zostały biblioteki pyodbc, time, os i fpdf2/n
+Opis
+Skrypt w Pythonie automatyzujący generowanie paszportów roślin (w formacie PDF) natychmiast po wystawieniu faktury w systemie Subiekt Nexo.
+
+Wymagania
+
+Plik flaga.jpg umieszczony w tym samym folderze co skrypt (wymagany na dokumencie).
+
+Połączenie z bazą danych Subiekt Nexo.
+
+Technologie
+Python, pyodbc (baza danych), fpdf2 (generowanie PDF), os, time.
